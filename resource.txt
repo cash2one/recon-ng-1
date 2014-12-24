@@ -1,0 +1,12 @@
+## example: python recon-ng -r resource.txt
+workspaces select markstam
+add profiles markstam~~~~
+add profiles mstam~~~~
+add profiles marks~~~~
+use profiler
+run
+use reporting/csv
+set FILENAME c://temp//dddd.csv
+set TABLE profiles
+run
+exit
